@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="RandomWrite">
+    
+    <title>
+        
+            梦 |
+        
+        生活记录
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+        <link rel="shortcut icon" href="/images/logo.svg">
+    
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.json"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"生活记录","author":"RandomWrite","avatar":"/images/avatar.svg","logo":"/images/logo.svg","favicon":"/images/logo.svg"},"menu":{"home":"/","archives":"/archives","tags":"/tags","categories":"/categories","photos":"/photos","about":"/about"},"first_screen":{"enable":false,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"Keep writing and Keep loving.","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":false,"tag":false,"post_datetime":"updated"},"post":{"author_badge":{"enable":false,"level_badge":false,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":false,"min2read":false},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null}},"code_block":{"tools":{"enable":false,"style":"default"},"highlight_theme":"default"},"toc":{"enable":false,"number":false,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":true,"preload":true},"comment":{"enable":true,"use":"waline","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.21"},"waline":{"server_url":"https://github-randomwrite-waline.vercel.app/","reaction":false,"version":2},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":false},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2019,"word_count":false,"icp":{"enable":false,"record_code":null,"url":"https://beian.miit.gov.cn"},"site_deploy":{"enable":false,"provider":"github","url":null},"shields_style":{"enable":false,"custom":[{"link_url":null,"img_url":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","source_data":{"photos":[{"url":"https://lsky.wmch.pw/i/2024/2021.07.01Eating-Noodles.jpg","name":"2021.07.01吃方便面"},{"url":"https://lsky.wmch.pw/i/2024/2021.08.01Riding-with-aunt-GaGa.jpg","name":"2021.08.01嘎嘎阿姨"},{"url":"https://lsky.wmch.pw/i/2024/2021.08.01Riding-with-aunt-GaGa1.jpg","name":"2021.08.01嘎嘎阿姨"},{"url":"https://lsky.wmch.pw/i/2024/2021.08.04Playing-With-Pigment.jpg","name":"2021.08.04玩颜料"},{"url":"https://lsky.wmch.pw/i/2024/2021.08.04Playing-With-Pigment1.jpg","name":"2021.08.04玩颜料"},{"url":"https://lsky.wmch.pw/i/2024/2021.08.04Playing-With-Pigment2.jpg","name":"2021.08.04玩颜料"},{"url":"https://lsky.wmch.pw/i/2024/2021.05.23bluesky.jpg","name":"2021.05.23蓝色的天空"},{"url":"https://lsky.wmch.pw/i/2024/2021.05.23nanshalibrary.jpg","name":"2021.05.23南沙图书馆"},{"url":"https://lsky.wmch.pw/i/2024/2021.01.26About-Happiness.jpg","name":"2021.01.26短暂的快乐"},{"url":"https://lsky.wmch.pw/i/2024/2021.05.23ningde.png","name":"2021.05.23宁德记忆"},{"url":"https://lsky.wmch.pw/i/2024/2017.05.31Words-want-to-say.jpg","name":"2017.05.31想说的话"}]},"version":"4.1.1"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 7.0.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+
+<main class="page-container border-box">
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left border-box">
+            
+                <a class="logo-image border-box" href="/">
+                    <img src="/images/logo.svg">
+                </a>
+            
+            <a class="site-name border-box" href="/">
+               生活记录
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                
+                                首页
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                
+                                归档
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                
+                                标签
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                
+                                分类
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/photos"
+                            >
+                                
+                                相册
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas search fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/"
+                    >首页</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives"
+                    >归档</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags"
+                    >标签</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories"
+                    >分类</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/photos"
+                    >相册</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about"
+                    >关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+                
+
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
+            
+
+            <div class="post-content-bottom border-box">
+                
+                    <div class="post-title">
+                        梦
+                    </div>
+                
+
+                
+                    <div class="post-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="/images/avatar.svg">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">RandomWrite</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="post-meta-info-container border-box post">
+    <div class="post-meta-info border-box">
+        
+
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
+                <span class="datetime">2011-04-02 20:51:00</span>
+            </span>
+
+            <span class="meta-info-item post-update-date">
+                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                <span class="datetime" data-updated="Tue Apr 16 2024 02:53:37 GMT+0000">2024-04-16 02:53:37</span>
+            </span>
+        
+
+        
+            <span class="meta-info-item post-category border-box"><i class="icon fas fa-folder"></i>&nbsp;
+                <ul class="post-category-ul">
+                    
+                            <li class="category-item"><a href="/categories/%E4%BA%BA%E7%94%9F%E6%80%9D%E8%80%83/">人生思考</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+            <span class="post-tag meta-info-item border-box">
+                <ul class="post-tag-ul">
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/%E9%9A%8F%E5%86%99/">随写</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body">
+                    
+
+                    <h1 id="随写几句"><a href="#随写几句" class="headerlink" title="随写几句"></a>随写几句</h1><p>　　好久都没这么做梦了,而且还是这么深的从梦中惊醒。<br>　　<br>　　好好回忆一下,写一下吧.<br>　　<br>　　时间好像就是发生在清明节放假的时候吧,那时我们的关系还很好,好到了不能再好的境地.故事就是这样开始的.<br>　　<br>　　清明节我们一起约着出去玩,去的地方不远,最开始的时候我们为去哪争论了好长时间,最后还是定了,到骊山去爬山,竟然和我现实的计划一模一样,虽然不是和你在一起.而是别人。<br>　　<br>　　去的时候,你背了两个背包,一个大的,一个小的,而我好像什么都没拿。我们爬了山,梦中没有我们怎样去爬山的细节,但是回来的时候却着实让我非常的恨你.<br>　　<br>　　就在晚上的时候,我们突然谈起来怀孕生小孩.当时的人好像是通过什么方法来躲避什么,好像是为了多生男孩似的.从而出来了一种”为人生子”的行业,同时,我们都非常的鄙视.那天晚上吃完饭,要回学校了,好像在路上还看到这样的女人,我们害怕她看到我们,一边暗地里指着,一般快速的跑.<br>　　<br>　　突然,在爬一个台阶的时候,你说了一句让我对你恨之入骨的话.”啊!我的肚子疼,估计是快要生了.”我当时一下就懵了,我怎么也接受不了你竟然说这样的话,我怎么也接受不了你竟然是这样,我赶紧的把你身上的背包抢过来,被在我背上,你还抢着不让.最后还是被我抢了过来.上台阶的时候,我还拿出电话,拼命地想给一个你认识的人打电话,还问你,要不要打电话叫120.你说不用了.上完台阶的时候,我就彻底没意识了,感觉身边的声音让我头大,让我耳晕目眩,所有细小的声音都是被放大了几万倍然后传到我的耳朵里.朦胧之中我好像听到一些话语,嘈杂,急促,”赶紧把脐带给剪掉.”<br>　　<br>　　我哭着跑下楼飞奔到我们高中学校的操场上,好想大哭一场,可是身边都是零零散散的坐着同学在聊天,我舅舅甚至也坐在那里,可是我只看了他一眼就走开了,心里还是那么的恨你,夹杂着泪水和鼻涕,接连喊着”操你妈的!”这样的句子.<br>　　<br>　　还回忆起你曾经说的话,还回忆起我们曾经的快乐,可是我心里知道,这个孩子不是我的.因为我什么都不懂,想起我们刚刚还讨论过,特别鄙视的那些人生小孩的人,可是你怎么和他们变得一样了?其实我的感觉一直都是对的,只是我不愿意承认罢了,你的心里一直都不是那么喜欢我,你的心里一直都有其他的人,而且你们都有小孩了.天啊,十月怀胎,一朝分娩,我怎么现在才知道?我怎么到最后了才知道?我一边哭,一边喊操你妈的,操你妈的!那是眼睛竟然看到一个电子的横幅,上面不断滚动着,1班1座%%%交卷了,成绩,多少分多少分之类的.可是我再也不管那些,失声痛哭起来.想着你怎么那么虚伪,你怎么那么虚伪,为什么骗我,为什么不给我说?为什么都这样了还瞒着我?我真的好自卑,我真的好自卑,你都那样了,我还那么义无反顾的爱着你.可是,我知道现在是时候该放弃了,因为即便和我在一起,将来也是不幸福的.因为你不爱我.就像现实里面一样.我一边哭,一边恨,就醒了.<br>　　<br>　　我不知道你会不看到,我也不知道你看到会是怎么样,反正这就是我的梦,这个梦太真了,真的我以为就是现实发生的一样,我醒了后躺在床上,回想了好久,睁开眼睛才发现,我还在长安大学,而你则在成都的火车上,这时我才知道,这仅仅是一个梦,我擦擦眼泪,给你发个短信,说,我做了一个关于你的梦,我马上起来,把它写下来.于是,就有了上面的文字.<br>　　<br>　　你还说才四点多,让我赶紧睡觉,起来了再写,可是我知道,起来了,就什么都忘了.<br>　　<br>　　那次发短信说：Go for him. I quit.可是你连什么反应都没有.我觉得,这和梦中的你真的很像,自私而不自知,我们的真的不合适.就这样吧.</p>
+
+                </div>
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                            <ul class="post-tags-box border-box">
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/%E9%9A%8F%E5%86%99/">随写</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                
+
+                
+                    <div class="post-nav border-box">
+                        
+                            <div class="prev-post">
+                                <a class="prev"
+                                   rel="prev"
+                                   href="/2012.11.24%E9%9A%8F%E5%86%99%E5%87%A0%E5%8F%A5/"
+                                   title="随写几句"
+                                >
+                                    <span class="left arrow-icon flex-center">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </span>
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">随写几句</span>
+                                        <span class="post-nav-item">上一篇</span>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                        
+                    </div>
+                
+
+                
+                    
+
+
+    <div class="comments-container border-box">
+        <div id="comments-anchor" class="comment-area-title border-box">
+            <i class="fas fa-comments"></i>&nbsp;评论
+        </div>
+        <div class="comment-plugin-fail border-box">
+    <span class="fail-tip">评论插件加载失败</span>
+    <button class="reload keep-button">点击重新加载</button>
+</div>
+<div class="comment-plugin-loading flex-center border-box">
+    <i class="loading-icon fa-solid fa-spinner fa-spin"></i>
+    <span class="load-tip">正在加载评论插件</span>
+</div>
+<script data-pjax>
+  window.KeepCommentPlugin = {}
+  window.KeepCommentPlugin.hideLoading = () => {
+    const cplDom = document.querySelector('.comments-container .comment-plugin-loading')
+    cplDom.style.display = 'none'
+  }
+  window.KeepCommentPlugin.loadFailHandle = () => {
+    window.KeepCommentPlugin.hideLoading()
+    const cpfDom = document.querySelector('.comments-container .comment-plugin-fail')
+    cpfDom.style.display = 'flex'
+    cpfDom.querySelector('.reload').addEventListener('click', () => {
+      window.location.reload()
+    })
+  }
+</script>
+
+        
+            
+
+    <div class="waline-comment-container">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.css"/>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline-meta.css"/>
+        <div id="waline-comment"></div>
+        <script 
+                src="//cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.js"
+                async
+                onerror="window.KeepCommentPlugin.loadFailHandle()"
+        ></script>
+        <script 
+                async
+        >
+          window.KeepCommentPlugin.walineOptions = JSON.parse('{}'.replace(/&#34;/g, '"'))
+
+          window.KeepCommentPlugin.initWaline = () => {
+            if (window?.Waline) {
+              window.KeepCommentPlugin.walineOptions.el = '#waline-comment'
+              window.KeepCommentPlugin.walineOptions.comment = '.post-comments-count'
+              window.KeepCommentPlugin.walineOptions.serverURL = 'https://github-randomwrite-waline.vercel.app/'
+              window.KeepCommentPlugin.walineOptions.lang = 'zh-CN' || 'zh-CN'
+              window.KeepCommentPlugin.walineOptions.reaction = 'false' === 'true'
+              window.Waline.init(window.KeepCommentPlugin.walineOptions)
+              window.KeepCommentPlugin.hideLoading()
+            } else {
+              setTimeout(() => {
+                window.KeepCommentPlugin.initWaline()
+              }, 1000)
+            }
+          }
+
+          if ('false' === 'true') {
+            setTimeout(() => {
+              window.KeepCommentPlugin.initWaline()
+            }, 1200)
+          } else {
+            window.addEventListener('DOMContentLoaded', window.KeepCommentPlugin.initWaline)
+          }
+        </script>
+    </div>
+
+
+        
+    </div>
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="border-box website-info-box default">
+        
+            <div class="copyright-info info-item default">
+                &copy;&nbsp;<span>2019</span>&nbsp;-&nbsp;2024
+                
+                    &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">RandomWrite</a>
+                
+            </div>
+
+            <div class="theme-info info-item default">
+                由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;主题&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+            </div>
+
+            
+
+            
+        
+
+        <div class="count-item info-item default">
+            
+
+            
+
+            
+        </div>
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="tools-list border-box">
+        <!-- PC TOC show toggle -->
+        
+
+        <!-- PC go comment -->
+        
+            <li class="tools-item flex-center go-to-comments">
+                <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
+            </li>
+        
+
+        <!-- PC full screen -->
+        <li class="tools-item flex-center full-screen">
+            <i class="fa-solid fa-expand"></i>
+        </li>
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-toggle-theme-mode flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+
+        
+            <li class="tools-item go-to-comments-tablet flex-center">
+                <i class="fas fa-comment"></i>
+            </li>
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- tablet toc -->
+    
+</main>
+
+
+
+<!-- common -->
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/toggle-theme.js"></script>
+
+<script src="/js/code-block.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+
+<!-- local-search -->
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+<!-- lazyload -->
+
+
+<div class="">
+    
+        <!-- post-helper -->
+        
+<script src="/js/post/post-helper.js"></script>
+
+
+        <!-- toc -->
+        
+
+        <!-- copyright-info -->
+        
+
+        <!-- share -->
+        
+    
+
+    <!-- categories page -->
+    
+
+    <!-- links page -->
+    
+
+    <!-- photos page -->
+    
+
+    <!-- tools page -->
+    
+</div>
+
+<!-- mermaid -->
+
+
+<!-- pjax -->
+
+
+
+</body>
+</html>
